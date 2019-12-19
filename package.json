@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-no-setter-return",
+  "version": "0.1.1",
+  "description": "this plugin provides a new rule which disallow return statement in setter function",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "cao kang",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "eslint-ast-utils": "^1.1.0",
+    "eslint-utils": "^1.4.3",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^6.2.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "url": "https://github.com/caokangx/eslint-plugin-no-setter-return",
+  "license": "ISC"
+}
